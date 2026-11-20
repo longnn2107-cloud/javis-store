@@ -40,6 +40,7 @@ PLUGIN = PACK / "plugins" / "zalo-extras"
 
 # The level each tool had in its own plugin before the merge (pack 1.5.1).
 LEVELS = {
+    "zalo_pc_read_history": "full",
     "zalo_send_image": "full",
     "zalo_group_members": "readonly", "zalo_send_mention": "full", "zalo_create_note": "full",
     "zalo_list_notes": "readonly", "zalo_edit_note": "full", "zalo_create_reminder": "full", "zalo_create_poll": "full",
@@ -79,7 +80,7 @@ c = Ctx()
 module.register(c)
 names = [t["name"] for t in c.tools]
 check("every tool registered exactly once", len(names) == len(set(names)), names)
-check("the 22 tools of the four former plugins, nothing lost, nothing extra", sorted(names) == sorted(LEVELS),
+check("all original tools plus the Zalo PC reader, each exactly once", sorted(names) == sorted(LEVELS),
       sorted(set(LEVELS) ^ set(names)))
 check("plugin.yaml lists exactly the registered tools", sorted(manifest.get("tools") or []) == sorted(names),
       sorted(set(manifest.get("tools") or []) ^ set(names)))
