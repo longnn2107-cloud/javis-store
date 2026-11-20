@@ -26,7 +26,7 @@ import sys
 from pathlib import Path
 
 _HERE = Path(__file__).resolve().parent
-_PARTS = ("send_media", "group", "read_images", "friend")
+_PARTS = ("send_media", "group", "read_images", "friend", "pc_history")
 
 
 def _load(part: str):

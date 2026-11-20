@@ -2674,10 +2674,10 @@
         "en": "Zalo extras"
       },
       "description": {
-        "vi": "Đi kèm kết nối Zalo: gửi ảnh và file, tag đúng người trong nhóm, tạo ghi chú, đọc và sửa ghi chú ghim (giữ nguyên ghim), nhắc hẹn, poll, đọc ảnh người ta gửi trong nhóm (ChatGPT trên gói của bạn tả lại nội dung ảnh cho mọi bộ não), và kết bạn: tìm người theo số điện thoại hay tên bạn bè, xem lời mời chờ duyệt và đã gửi, gửi, nhận, từ chối, rút lại lời mời, và đổi tên khách bằng tên gợi nhớ. Cần Javis 0.73.0 trở lên và đã quét QR Zalo ở trang Kết nối.",
-        "en": "Goes with the Zalo connection: send images and files, tag the right people in a group, create notes, read and edit pinned notes (the pin stays), reminders and polls, read the images people post in a group (ChatGPT on your plan describes them for every brain), and handle friends: find people by phone or by a friend's name, see pending and sent requests, send, accept, reject and withdraw requests, and rename a contact with a nickname. Needs Javis 0.73.0 or newer and Zalo scanned on the Connections page."
+        "vi": "Đọc lịch sử hiển thị trên Zalo PC bằng OCR Windows, có ảnh đối chiếu và ghi rõ phạm vi chưa đầy đủ. Đi kèm kết nối Zalo: gửi ảnh và file, tag đúng người trong nhóm, tạo ghi chú, đọc và sửa ghi chú ghim (giữ nguyên ghim), nhắc hẹn, poll, đọc ảnh người ta gửi trong nhóm (ChatGPT trên gói của bạn tả lại nội dung ảnh cho mọi bộ não), và kết bạn: tìm người theo số điện thoại hay tên bạn bè, xem lời mời chờ duyệt và đã gửi, gửi, nhận, từ chối, rút lại lời mời, và đổi tên khách bằng tên gợi nhớ. Cần Javis 0.73.0 trở lên và đã quét QR Zalo ở trang Kết nối.",
+        "en": "Read visible Zalo PC history with Windows OCR, evidence screenshots and explicit partial coverage. Goes with the Zalo connection: send images and files, tag the right people in a group, create notes, read and edit pinned notes (the pin stays), reminders and polls, read the images people post in a group (ChatGPT on your plan describes them for every brain), and handle friends: find people by phone or by a friend's name, see pending and sent requests, send, accept, reject and withdraw requests, and rename a contact with a nickname. Needs Javis 0.73.0 or newer and Zalo scanned on the Connections page."
       },
-      "version": "2.0.1",
+      "version": "2.1.0",
       "author": {
         "name": "Javis"
       },
@@ -2688,7 +2688,7 @@
       },
       "tier": "code",
       "verified": true,
-      "updated": "2026-11-09",
+      "updated": "2026-11-20",
       "homepage": "https://github.com/blogminhquy/javis-store/tree/main/packs/javis.zalo",
       "icon": "packs/javis.zalo/assets/zalo.png",
       "provides": {
@@ -2697,9 +2697,9 @@
         ]
       },
       "download": {
-        "url": "dist/javis-zalo-2.0.1.zip",
-        "sha256": "25dcda4ecc84aaff6cb6b932166cac37cd724098701a17656fd7b6134eaf5a77",
-        "size": 43436
+        "url": "dist/javis-zalo-2.1.0.zip",
+        "sha256": "0e779ce8c8bfcc307b45f43751947527b8ee2631a6dda30f8c4464bea020d4ea",
+        "size": 49249
       }
     },
     {
